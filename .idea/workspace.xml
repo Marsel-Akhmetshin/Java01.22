@@ -1,28 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5dd9675-a34a-4f1b-bd5c-ba1593e75d70" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java01.22.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lr1/Example1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lr1/Example10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lr1/Example11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lr1/Example12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lr1/Example13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lr1/Example14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lr1/Example15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lr1/Example2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lr1/Example3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lr1/Example4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lr1/Example5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lr1/Example6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lr1/Example7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lr1/Example8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lr1/Example9.java" afterDir="false" />
+    <list default="true" id="e5dd9675-a34a-4f1b-bd5c-ba1593e75d70" name="Changes" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/src/lr1/Example14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr1/Example14.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,6 +121,14 @@
       <option name="presentableId" value="Default" />
       <updated>1671126164533</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1671128322439</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671128322439</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +141,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -15,7 +15,6 @@ public class Example14 {
         int c = num + 1;
         int d = (a + b + c) * (a + b + c);
 
-
         System.out.println(a + ", " + b + ", " + c + ", " + d);
         in.close();
     }
