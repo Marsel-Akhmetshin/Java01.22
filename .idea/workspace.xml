@@ -38,6 +38,11 @@
     "last_opened_file_path": "C:/Users/Марсель/IdeaProjects/Java01.22"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Марсель\IdeaProjects\Java01.22" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.task_1293">
     <configuration name="Example13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lr1.Example13" />
@@ -144,7 +149,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671129703707</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Initial commit">
+      <created>1671131299202</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671131299202</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Initial commit">
+      <created>1671131435348</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671131435348</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
