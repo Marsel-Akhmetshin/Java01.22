@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e5dd9675-a34a-4f1b-bd5c-ba1593e75d70" name="Changes" comment="Initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lr2/Example1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr2/Example1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lr2/Example2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr2/Example2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lr2/Example3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr2/Example3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,26 +33,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "temurin-11",
-    "last_opened_file_path": "C:/Users/Марсель/IdeaProjects/Java01.22"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Марсель/IdeaProjects/Java01.22&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Марсель\IdeaProjects\Java01.22" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.task_1293">
-    <configuration name="Example13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lr1.Example13" />
+  <component name="RunManager" selected="Application.Example4">
+    <configuration name="Example1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lr2.Example1" />
       <module name="Java01.22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lr1.*" />
+          <option name="PATTERN" value="lr2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lr1.Example14" />
+    <configuration name="Example2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lr2.Example2" />
       <module name="Java01.22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lr1.*" />
+          <option name="PATTERN" value="lr2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lr1.Example15" />
+    <configuration name="Example3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lr2.Example3" />
       <module name="Java01.22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lr1.*" />
+          <option name="PATTERN" value="lr2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task_1293.main" />
+    <configuration name="Example4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lr2.Example4" />
       <module name="Java01.22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task_1293.*" />
+          <option name="PATTERN" value="lr2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Example4" />
+        <item itemvalue="Application.Example3" />
+        <item itemvalue="Application.Example2" />
+        <item itemvalue="Application.Example1" />
         <item itemvalue="Application.task_1293" />
-        <item itemvalue="Application.main" />
-        <item itemvalue="Application.Example15" />
-        <item itemvalue="Application.Example14" />
-        <item itemvalue="Application.Example13" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671131435348</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Initial commit">
+      <created>1671132126254</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671132126254</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
