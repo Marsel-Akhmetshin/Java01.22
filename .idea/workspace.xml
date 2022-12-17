@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5dd9675-a34a-4f1b-bd5c-ba1593e75d70" name="Changes" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lr2/Example1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr2/Example1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lr2/Example2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr2/Example2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lr2/Example3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lr2/Example3.java" afterDir="false" />
-    </list>
+    <list default="true" id="e5dd9675-a34a-4f1b-bd5c-ba1593e75d70" name="Changes" comment="Initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +41,7 @@
       <recent name="C:\Users\Марсель\IdeaProjects\Java01.22" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Example4">
+  <component name="RunManager" selected="Application.Example5">
     <configuration name="Example1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lr2.Example1" />
       <module name="Java01.22" />
@@ -99,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="task_1293" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task_1293.task_1293" />
+    <configuration name="Example5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lr2.Example5" />
       <module name="Java01.22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task_1293.*" />
+          <option name="PATTERN" value="lr2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Example5" />
         <item itemvalue="Application.Example4" />
         <item itemvalue="Application.Example3" />
         <item itemvalue="Application.Example2" />
         <item itemvalue="Application.Example1" />
-        <item itemvalue="Application.task_1293" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671132126254</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Initial commit">
+      <created>1671288352418</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671288352418</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
