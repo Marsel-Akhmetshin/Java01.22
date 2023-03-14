@@ -1,32 +1,35 @@
 package lr4;
 
-import java.util.Scanner;
-
 public class Example4 {
+
     public static void main(String[] args) {
-        Scanner id = new Scanner(System.in);
-        System.out.print("введите высоту прямоугольника: ");
-        int height = id.nextInt();
-        char [][] graph = new char [height][];
-        for (int i=0;i<graph.length;i++){
-            int j = i+1;
-            graph[i]=new char[j];
+        // число строк которое необходимо вывести
+        int a = 10;
+        //создаем элемент массива необходимого размера
+        int[][] figure = new int[a][];
+        //резервирование памяти для второго измерения массива
+        for (int i = 0; i < a; i++) {
+            int j = i + 1;
+            figure[i] = new int[j];
         }
-        int z = 0;
-        for (int i =0; i < height; i++){
-            for (int j = 0; j <i+1; j++){
-                graph[i][j] = '@';
+        // заполняем массив двойками
+        for (int i = 0; i < a; i++) {
+            for (int j = 0; j < i + 1; j++) {
+                figure[i][j] = 2;
             }
         }
-        for (int i =0; i < height; i++){
-            int count = i+1;
-            System.out.print("номер строки " + count + " : ");
-            for (int j = 0; j < graph[i].length; j++){
-                System.out.print(graph[i][j]+" ");
-                z++;
+        // выводим получившийся массив в консоль
+        System.out.print("Сейчас будет выведен прямоугольный треугольник," +
+                "\nнарисованный значениями из двухмерного массива - " +
+                "\nт.е. состоящий из числа 2: ");
+        for (int i = 0; i < a; i++) {
+            System.out.println();
+            for (int j = 0; j < figure[i].length; j++) {
+                System.out.print(figure[i][j] + " ");
             }
-            System.out.println(" Количество символов в строке " + z);
-            z = 0;
+
         }
     }
 }
+//4 Напишите программу, в которой создается двумерный массив,
+//который выводит прямоугольный треугольник.

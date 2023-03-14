@@ -1,18 +1,21 @@
 package lr4;
 
 public class Example2 {
+
     public static void main(String[] args) {
-        int figure = 15;
-        int i ;
-        int j ;
-        int z=0;
-        for (i = 1 ; i <= figure; i++){
-            System.out.print("номер строки: " + i + " ");
-            for (j = 0; j <=z; j++){
+        int a = 10; // число столбцов которое необходимо вывести
+        int z = 0; // переменная необходима для вывода служебного сообщения о количестве символов в строке;
+        for (int i = 1; i <= a; i++) {
+            if (i > 9) {
+                System.out.print("номер строки: " + i + "  ");
+            } else System.out.print("номер строки:  " + i + "  ");
+
+            for (int j = 0; j <= z; j++) {
                 System.out.print("+");
             }
             z = z + 1;
-            System.out.println(" Количество символов в строке " + z);
+            System.out.println(" Количество символов + в строке: " + z);
         }
     }
 }
+//2 Напишите программу, которая выводит в консольное окно прямоугольный треугольник;

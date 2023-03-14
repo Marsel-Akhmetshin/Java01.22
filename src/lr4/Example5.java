@@ -1,30 +1,55 @@
-package lr4;
+package LR4;
 
 import java.util.Random;
 import java.util.Scanner;
 
 public class Example5 {
+
     public static void main(String[] args) {
-        Random random = new Random(200);
+        // Создание объекта класса Random
+        Random random = new Random();
+        // Создание объекта класса Scanner
         Scanner id = new Scanner(System.in);
-        System.out.print("введите количество  столбцов массива: ");
+        // Сообщение в консоль для понимания
+        System.out.print("введите количество столбцов массива: ");
+        // Запись в переменную "а"
         int a = id.nextInt();
+        // Сообщение в консоль для понимания
         System.out.print("введите количество строк массива: ");
+        // Запись в переменную "b"
         int b = id.nextInt();
-        int firstArray[][] = new int[a][b];
+        //создаем двухмерный массив "int"ов
+        int[][] firstArray = new int[a][b];
+        // Сообщение в консоль для красоты
+        System.out.println("===============================");
+        //заполнение массива рандомными числами (в этом конкретном случае от "0" до "200")
         for (int i = 0 ; i <a; i++) {
             for (int j = 0 ; j <b; j++) {
                 firstArray[i][j] = random.nextInt(200);
-                System.out.println("i = "+i+"; j= "+j+"; value= "+firstArray[i][j]);
+                // Вывод в консоль сообщения с индексами и значениями созданного нами массива "firstArray"
+                System.out.println("Array [" + i + "]" + "["+j + "]" + "; value= " + firstArray[i][j]);
             }
         }
-        System.out.println("===================================");
-        int secondArray[][] = new int[b][a];
+        // Сообщение в консоль для красоты
+        System.out.println("===============================");
+        // создание транспонированного массива
+        int[][] secondArray = new int[b][a];
         for (int i = 0 ; i <b; i++) {
             for (int j = 0 ; j <a; j++) {
+                // запись в secondArray[i][j] транспонированных значений
                 secondArray[i][j] = firstArray[j][i];
-                System.out.println("i = "+i+";j= "+j+";value= "+secondArray[i][j]);
+                // Вывод в консоль сообщения с индексами и значениями созданного нами
+                // транспонированного массива "secondArray"
+                System.out.println("Array [" + i + "]" + "["+j + "]" + "; value= " + secondArray[i][j]);
             }
         }
+        // Сообщение в консоль для красоты
+        System.out.println("===============================");
     }
 }
+// 5. Напишите программу, в которой создается двумерный целочисленный массив.
+// Он заполняется случайными числами. Затем в этом массиве строи и столбцы
+// меняются местами: первая строка становится первым столбцом, вторая строка
+// становиться вторым столбцом и так далее. Например, если исходный массив
+// состоял из 3 строк и 5 столбцов, то в итоге получаем массив из 5 строк
+// и 3 столбцов.
