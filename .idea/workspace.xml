@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5dd9675-a34a-4f1b-bd5c-ba1593e75d70" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/lr4/Example8/Caesar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Netology/Prod1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lr7/Example1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lr7/Example2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lr7/Example3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lr7/Example4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lr7/Example5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lr7/package-info.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -304,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678813511211</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Initial commit">
+      <created>1678814974473</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1678814974473</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
